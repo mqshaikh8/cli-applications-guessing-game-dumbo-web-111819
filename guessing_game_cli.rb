@@ -5,6 +5,6 @@ def run_guessing_game
   if user_input == roll
     $stdout.write "You guesses the coorect number!"
   elsif user_input != roll
-    $stdout.write ""
-  
+    $stdout.write "Sorry! The computer guessed 6."
+  elsif user_input == "exit!"
 end 
