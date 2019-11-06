@@ -8,5 +8,5 @@ def run_guessing_game
     $stdout.write "Sorry! The computer guessed 6."
   elsif user_input == "exit!"
     $stdout.write "Goodbye!"
-  else
+ 
 end 
